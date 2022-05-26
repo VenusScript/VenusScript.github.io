@@ -1,3 +1,3 @@
 function search(){
-  window.location.hash = "#movies?search=" + document.getElementById("search").value
+  window.location.assign("movies?search=" + document.getElementById("search").value);
 }
